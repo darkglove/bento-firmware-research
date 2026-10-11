@@ -1,5 +1,11 @@
 # Safety and recovery
 
+> [!WARNING]
+> **EXPERIMENTAL TESTING ONLY — NOT PROVEN TO WORK ON A BENTO.**
+> No modified firmware produced by this project has been demonstrated here to install, boot, function correctly, or avoid damaging or bricking a Bento. **It has not been proven safe.**
+> Passing Python tests, matching hashes, or changing only one byte does not establish hardware safety. Attempting installation could leave your Bento unusable and require repair; successful recovery is not guaranteed.
+> This is research material, not a recommended firmware upgrade. Do not install it on hardware you cannot afford to render unusable. An AI assistant cannot certify it safe.
+
 This is unsupported experimental firmware research. A one-byte cosmetic edit is not a guarantee of a harmless update. Byte-level verification does not test the installer's erase/write behavior, integrity policy or hardware boot.
 
 Possible outcomes include rejection, an application failure recoverable through the bootloader, or failure requiring servicing/hardware programming. No measured probability is available.

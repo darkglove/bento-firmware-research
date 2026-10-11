@@ -1,5 +1,11 @@
 # Reproduce the first firmware patch
 
+> [!WARNING]
+> **EXPERIMENTAL TESTING ONLY — NOT PROVEN TO WORK ON A BENTO.**
+> No modified firmware produced by this project has been demonstrated here to install, boot, function correctly, or avoid damaging or bricking a Bento. **It has not been proven safe.**
+> Passing Python tests, matching hashes, or changing only one byte does not establish hardware safety. Attempting installation could leave your Bento unusable and require repair; successful recovery is not guaranteed.
+> This is research material, not a recommended firmware upgrade. Do not install it on hardware you cannot afford to render unusable. An AI assistant cannot certify it safe.
+
 Read [SAFETY.md](SAFETY.md) first. This tutorial builds files on your computer; it does not install them. The goal is a controlled proof-of-concept, not new firmware compiled from source.
 
 ## 1. Get the toolkit
