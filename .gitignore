@@ -1,0 +1,14 @@
+inputs/
+output/
+analysis/
+__pycache__/
+*.pyc
+*.bin
+*.zip
+*.pdf
+*.gpr
+*.rep/
+.env
+.env.*
+*.pem
+*.key
