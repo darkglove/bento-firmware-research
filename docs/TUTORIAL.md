@@ -1,10 +1,10 @@
 # Reproduce the first firmware patch
 
 > [!WARNING]
-> **EXPERIMENTAL TESTING ONLY — NOT PROVEN TO WORK ON A BENTO.**
-> No modified firmware produced by this project has been demonstrated here to install, boot, function correctly, or avoid damaging or bricking a Bento. **It has not been proven safe.**
-> Passing Python tests, matching hashes, or changing only one byte does not establish hardware safety. Attempting installation could leave your Bento unusable and require repair; successful recovery is not guaranteed.
-> This is research material, not a recommended firmware upgrade. Do not install it on hardware you cannot afford to render unusable. An AI assistant cannot certify it safe.
+> **EXPERIMENTAL TESTING — ONE OWNER-REPORTED SUCCESS, NOT PROVEN SAFE.**
+> The device owner reports that this one-byte test firmware loaded without issue and displayed the lowercase `s` in `Global settings` after the usual firmware-update procedure. This was not independently witnessed; no installation logs or long-term results were supplied.
+> This does **not** establish safety, reliability, rollback/recovery, broader device compatibility or support for other patches. Firmware experiments could leave a Bento unusable; recovery is not guaranteed. Do not install on hardware you cannot afford to render unusable.
+> Offline tests and matching hashes are not hardware-safety certification. An AI assistant cannot certify this firmware safe.
 
 Read [SAFETY.md](SAFETY.md) first. This tutorial builds files on your computer; it does not install them. The goal is a controlled proof-of-concept, not new firmware compiled from source.
 
@@ -85,7 +85,7 @@ The implementation gates the exact baseline hash, checks the unique original str
 
 ## 6. Stop at the hardware boundary
 
-A verified output is an **untested firmware candidate**, not proof of bootability or safety. Before any installation establish a recovery route, preserve stock files and back up your card. No tool in this repository flashes hardware.
+A verified output by itself is not proof of bootability or safety. On 2026-10-12T06:56:25+00:00, the device owner reported that the one-byte test firmware loaded without issue, that the lowercase `s` in `Global settings` was visible, and that installation followed the usual firmware-update procedure. This is **owner-reported hardware evidence**, not an independently witnessed test. The report does not document installation logs, prolonged operation, audio/MIDI behavior, repeatability on other units, stock rollback, or interrupted-update recovery. Modified firmware remains experimental and is not proven safe from damage or bricking. Before any installation establish a recovery route, preserve stock files and back up your card. No tool in this repository flashes hardware.
 
 The previously reviewed v1.2 manual, PDF pages 15-16 (printed 6-7), describes placing both firmware files in the microSD root, entering the Bootloader screen, then pressing REC to install with external power connected. Wait for completion and automatic restart; do not interrupt power or remove the card. Confirm the current vendor instructions for your own device. Bento does not simply execute these SD files on normal boot.
 
