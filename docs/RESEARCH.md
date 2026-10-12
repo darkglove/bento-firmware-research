@@ -1,6 +1,6 @@
 # Technical findings and evidence limits
 
-These observations apply to the exact input hashes in [TUTORIAL.md](TUTORIAL.md). Research date: 2026-10-11. They derive from binary inspection and Ghidra/Capstone analysis, not recovered vendor symbols or a hardware test.
+These static observations apply to the exact input hashes in [TUTORIAL.md](TUTORIAL.md). Research date: 2026-10-11. They derive from binary inspection and Ghidra/Capstone analysis, not recovered vendor symbols. Subsequent owner-reported device evidence is recorded separately below.
 
 ## Image layout
 
@@ -30,4 +30,8 @@ A local collection of 18 versions / 36 binaries mapped to 22 unique images: 18 m
 
 ## Evidence status
 
-The supplied builder, original-input hash gates, exact-diff verifier and analysis helpers make the minimal example reproducible from user-supplied inputs. Original raw Ghidra exports are not distributed. This repository does not establish successful device installation, full emulation, audio behavior, rollback success or appended-code support. Contribute evidence with exact hashes, method, observed output and limitations; avoid personal information or vendor binaries.
+The supplied builder, original-input hash gates, exact-diff verifier and analysis helpers make the minimal example reproducible from user-supplied inputs. Original raw Ghidra exports are not distributed. The owner reports the one-byte candidate loaded and showed the lowercase `s`, but this repository does not independently verify the installation or establish full emulation, audio behavior, rollback success or appended-code support. Contribute evidence with exact hashes, method, observed output and limitations; avoid personal information or vendor binaries.
+
+## Owner-reported device test — 2026-10-12T06:56:25+00:00
+
+On 2026-10-12T06:56:25+00:00, the device owner reported that the one-byte test firmware loaded without issue, that the lowercase `s` in `Global settings` was visible, and that installation followed the usual firmware-update procedure. This is **owner-reported hardware evidence**, not an independently witnessed test. The report does not document installation logs, prolonged operation, audio/MIDI behavior, repeatability on other units, stock rollback, or interrupted-update recovery. Modified firmware remains experimental and is not proven safe from damage or bricking. Source: owner messages in the private project conversation; no private identifiers or binary evidence are published here. Applies only to the one-byte 1.6.1 probe with expected output SHA-256 `b7bc3141b1acb4fac737a1ad4a0b754787d6c4375dd2bb9bdc1abc9dc385f443`; device-file hash was not measured independently. Next: request logs/photo and a separate, recovery-aware rollback check if the owner wants to establish those claims.

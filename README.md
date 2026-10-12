@@ -1,14 +1,14 @@
 # Bento firmware research: a reproducible first patch
 
 > [!WARNING]
-> **EXPERIMENTAL TESTING ONLY — NOT PROVEN TO WORK ON A BENTO.**
-> No modified firmware produced by this project has been demonstrated here to install, boot, function correctly, or avoid damaging or bricking a Bento. **It has not been proven safe.**
-> Passing Python tests, matching hashes, or changing only one byte does not establish hardware safety. Attempting installation could leave your Bento unusable and require repair; successful recovery is not guaranteed.
-> This is research material, not a recommended firmware upgrade. Do not install it on hardware you cannot afford to render unusable. An AI assistant cannot certify it safe.
+> **EXPERIMENTAL TESTING — ONE OWNER-REPORTED SUCCESS, NOT PROVEN SAFE.**
+> The device owner reports that this one-byte test firmware loaded without issue and displayed the lowercase `s` in `Global settings` after the usual firmware-update procedure. This was not independently witnessed; no installation logs or long-term results were supplied.
+> This does **not** establish safety, reliability, rollback/recovery, broader device compatibility or support for other patches. Firmware experiments could leave a Bento unusable; recovery is not guaranteed. Do not install on hardware you cannot afford to render unusable.
+> Offline tests and matching hashes are not hardware-safety certification. An AI assistant cannot certify this firmware safe.
 
 An independent, experimental toolkit for studying 1010music Bento firmware and reproducing a minimal binary patch. Not affiliated with or endorsed by 1010music.
 
-**Status: offline build and byte-level verification only. No successful hardware installation, boot, or recovery test is established here.** This is not vendor source code, an SDK, or a general custom-firmware framework.
+**Status: offline build and byte-level verification plus one owner-reported successful hardware load and visible lowercase `s`; recovery and general safety remain unverified.** This is not vendor source code, an SDK, or a general custom-firmware framework.
 
 ## Start here
 
