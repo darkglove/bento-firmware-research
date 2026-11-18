@@ -1,5 +1,7 @@
 # Reproduce the first firmware patch
 
+**Historical 1.6.1 tutorial.** For current 1.6.8 findings, see the [research guide](research/README.md). This builder and its offsets remain pinned to 1.6.1.
+
 > [!WARNING]
 > **EXPERIMENTAL TESTING — ONE OWNER-REPORTED SUCCESS, NOT PROVEN SAFE.**
 > The device owner reports that this one-byte test firmware loaded without issue and displayed the lowercase `s` in `Global settings` after the usual firmware-update procedure. This was not independently witnessed; no installation logs or long-term results were supplied.

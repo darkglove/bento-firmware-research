@@ -1,0 +1,594 @@
+[
+  {
+    "id": "6.1",
+    "title": "Executed XML files, parameters and sequences",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "FILES.md"
+  },
+  {
+    "id": "6.2",
+    "title": "Original project-object construction",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "FILES.md"
+  },
+  {
+    "id": "6.3",
+    "title": "Upload dispatch from loaded objects",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "FILES.md"
+  },
+  {
+    "id": "6.4",
+    "title": "Loaded assets through the file service and the engine",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "FILES.md"
+  },
+  {
+    "id": "6.5",
+    "title": "Loaded streamed sample families",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "FILES.md"
+  },
+  {
+    "id": "6.6",
+    "title": "Executed project-relative filenames",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "FILES.md"
+  },
+  {
+    "id": "6.7",
+    "title": "Four loaded Multisample assets",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "FILES.md"
+  },
+  {
+    "id": "6.8",
+    "title": "Loaded projects beyond prefetch",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "FILES.md"
+  },
+  {
+    "id": "6.9",
+    "title": "XML-owned slice markers through playback",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "FILES.md"
+  },
+  {
+    "id": "6.10",
+    "title": "XML modulation wiring through upload and playback",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "FILES.md"
+  },
+  {
+    "id": "6.11",
+    "title": "XML automation through native lane upload and engine storage",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "FILES.md"
+  },
+  {
+    "id": "6.12",
+    "title": "Full track sequence upload and running lanes",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "FILES.md"
+  },
+  {
+    "id": "6.13",
+    "title": "Native bank finalization and selection overwrite",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "FILES.md"
+  },
+  {
+    "id": "6.14",
+    "title": "Finalized sample sequences produce exact audio",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.15",
+    "title": "Finalized synth sequences produce exact audio",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.16",
+    "title": "XML automation changes loaded sequence audio",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.17",
+    "title": "Mixed tracks share loaded sequence and automation audio",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.18",
+    "title": "Native scenes switch loaded track sequences",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.19",
+    "title": "Scene-boundary voice timing",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.20",
+    "title": "Native scene loop, hold, counts and unequal lengths",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.21",
+    "title": "Stepped automation across native scenes",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.22",
+    "title": "Sliding scenes and transport-grid pattern repeats",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.23",
+    "title": "Manual scene commands and late quantization",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.24",
+    "title": "CM4 live scene queue and engine replay",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.25",
+    "title": "Empty-scene forward search, wrap and stop",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.26",
+    "title": "Queued replacement and separate track/scene timing",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.27",
+    "title": "Native MIDI scene mapper and CM4 playback bridge",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "SEQUENCING.md"
+  },
+  {
+    "id": "6.28",
+    "title": "Serial MIDI bytes through native CM4 and CM7",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.29",
+    "title": "CM4 USB MIDI reception, queue limits and scene routing",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.30",
+    "title": "CM7 USB-device MIDI input and duplicate filter",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.31",
+    "title": "MIDI-learn capture, export and CM4 receive behaviour",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.32",
+    "title": "MIDI-binding storage, boundaries and ordinary input",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.33",
+    "title": "Per-track MIDI channel, port and Multisample routing",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.34",
+    "title": "MIDI family tables, command notes and inactive targets",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.35",
+    "title": "MIDI expression, program gating and CM4 ring-X requests",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.36",
+    "title": "MIDI output serialization and the actual ring-Y consumer",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.37",
+    "title": "MIDI output pump, UART interrupts and USB-host worker",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.38",
+    "title": "MIDI settings files and USB-host initialization",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.39",
+    "title": "USB native enumeration, descriptor parsing and reconnect",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.40",
+    "title": "USB controller submission, FIFO and interrupt handling",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.41",
+    "title": "USB initialization, reset and port interrupts",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.42",
+    "title": "USB native task creation, queues and bounded scheduling",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "MIDI_USB.md"
+  },
+  {
+    "id": "6.43",
+    "title": "CM4 native scheduler, context switching and USB interrupt wake",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.44",
+    "title": "CM4 boot-created application tasks and interrupt scheduling",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.45",
+    "title": "CM4 scheduled four-file demand service and queued reopen",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.46",
+    "title": "CM7 audio demand with native scheduled CM4 streaming",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.47",
+    "title": "Native filesystem reads and SD completion queue",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.48",
+    "title": "Native SDMMC commands and delayed read completion",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.49",
+    "title": "Native SD initialization and discovered capacity",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.50",
+    "title": "Production streaming through native FAT and SD",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.51",
+    "title": "Native queued WAV prefetch and completion",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.52",
+    "title": "Native first-load state through full audio demand",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.53",
+    "title": "Native SD writes and FAT file persistence",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.54",
+    "title": "Native recorder through FAT and SD persistence",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.55",
+    "title": "Production scheduled recording with native SD waits",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.56",
+    "title": "Production recorder write faults and late completion",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.57",
+    "title": "Late SD completion disrupts recorder retry in modeled timings",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.58",
+    "title": "Continuous recording loses input after prepared chunks fill",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.59",
+    "title": "Recording callers do not signal rejected input in tested callbacks",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STORAGE.md"
+  },
+  {
+    "id": "6.60",
+    "title": "Native reset memory setup completes CM7 engine initialization",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.61",
+    "title": "Native CM7 allocator limits ledger and startup accounting",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.62",
+    "title": "Native CM7 outer objects and shared startup",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.63",
+    "title": "Native CM7 static constructors and audio startup controls",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.64",
+    "title": "Native CM7 reset clock MPU and cache startup",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.65",
+    "title": "Native CM7 floating-point startup boundary",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.66",
+    "title": "Native CM7 audio DMA handler dispatch",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.67",
+    "title": "Native CM7 DMA-to-audio main loop",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.68",
+    "title": "Native CM7 main startup and core handoff",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.69",
+    "title": "Native CM4 reset through initial task scheduling",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.70",
+    "title": "Native CM4 application services with running CM7 audio",
+    "recorded_date": "2026-11-15",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.71",
+    "title": "Native startup settings and project discovery",
+    "recorded_date": "2026-11-16",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "STARTUP.md"
+  },
+  {
+    "id": "6.72",
+    "title": "Native startup and main-interface rendering",
+    "recorded_date": "2026-11-16",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "UI_CONTROLLER.md"
+  },
+  {
+    "id": "6.73",
+    "title": "Native touch through menu rendering",
+    "recorded_date": "2026-11-16",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "UI_CONTROLLER.md"
+  },
+  {
+    "id": "6.74",
+    "title": "Native SPI controller input and packet integrity",
+    "recorded_date": "2026-11-16",
+    "baseline": "1.6.8",
+    "evidence": "original-code execution with supplied environment; not a hardware test",
+    "chapter": "UI_CONTROLLER.md"
+  }
+]

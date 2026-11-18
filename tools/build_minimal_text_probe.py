@@ -1,4 +1,4 @@
-"""Build an UNTESTED offline text probe from the exact supported archive.
+"""Build an experimental offline text probe from the exact supported 1.6.1 archive.
 No flashing, no checksum bypass, no edits to originals. Standard library only.
 """
 from pathlib import Path
@@ -65,7 +65,7 @@ def build(archive, output):
                    'modified input rejected', 'double application rejected',
                    'output readback byte equality'],
         'limits': ['Bootloader integrity policy unknown', 'Not executed or flashed',
-                   'Secondary component role unresolved', 'Rollback not hardware verified']
+                   'Companion controller/reverb image preserved unchanged', 'Rollback not hardware verified']
     }
     output.mkdir(parents=True, exist_ok=False)
     (output/'rollback').mkdir()

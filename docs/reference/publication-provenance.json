@@ -1,0 +1,123 @@
+{
+  "edition": "2026-11-18",
+  "research_through": "2026-11-17",
+  "publication_type": "curated factual research and original tools; no private history or vendor files",
+  "source_records": [
+    {
+      "record": "00",
+      "source_sha256": "84d0281a1424c88fdbed13d92205088539e4d683ccac1bce38ae4b861337da8a",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "01",
+      "source_sha256": "aae5e1ab5e70e63488afcb2cdbaa4136fd668e0e34d1a345c56b7a86f9cddbc5",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "02",
+      "source_sha256": "fd48c1aa3c9ba61e01730afeec7c4833b81f53a61d3091ba22b762139f2cbb2e",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "05",
+      "source_sha256": "16b4aba720e5ee63562dbf017e6d79b6d89633799ba450a4c9504cbfa4aa29e3",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "06",
+      "source_sha256": "1636791825f129d7b2d19c4fa03d1085581cbfc6d4d21ba1074f74ef557d3b5a",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "07",
+      "source_sha256": "47136808093a2ed389b2e0fc885c1e1e7cbfdbb2b2ae9c1442285901759d9aa3",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "08",
+      "source_sha256": "36b24cebf5615cb1e8a9af30ab5631602a95b7714367711fec8a489f1d5ec44d",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "12",
+      "source_sha256": "c167ea10eba3596dca8edd1b45108f92bcf1f0e72b83b9b4b5e33ee58021c071",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "13",
+      "source_sha256": "3ff4309898bf11f438bf1ebfc9ff73ba48dcb58d3f778e599050415ee475b542",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "14",
+      "source_sha256": "aa3ccec7280d6214e05a70cce7c1048913a2b9115aca3bf13578ff70afecbf54",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "15",
+      "source_sha256": "266a42c73c001fd30f55f64b29f4c8b2a324d538edb9b00a24a75dedf01f5b83",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "16",
+      "source_sha256": "d8203d02ade653ed6e3a6b6fda23ec7ee938b163eedf95e369d4a8a5e757d64c",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "17",
+      "source_sha256": "c57479a9bf8d2edf778ee693aa8472d558ca4ef7ee08e0f2204de48719fb98c8",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "18",
+      "source_sha256": "a735a8ff50cafb5acf60d7bd2e5c062437d414aec669d66f9e979ef98470ceb8",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "19",
+      "source_sha256": "70bf3c7893e7138ab6fb0360512cdeb8bb701d6e4c70a60a8c3423e43c367153",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "20",
+      "source_sha256": "79c64500b4909670b071007995fdcd0699f9875709973cf53cb3020734d3783c",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "21",
+      "source_sha256": "eb8aba6993c054e9241399ffa3ba73b86ef681fa5a5113ddb71040a26bdbc701",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    },
+    {
+      "record": "23",
+      "source_sha256": "bc0c1dd866a26500b289f94056494625f36848d28e16640c8403de25ac5037cc",
+      "availability": "underlying working research record not included; public synthesis in docs/research"
+    }
+  ],
+  "reference_tables": {
+    "parameter-registry-1.6.8.md": {
+      "kind": "decoded interface facts",
+      "source_sha256": "b4193f595e43017a8dd3440d8702196ac04ce7a0294ccbcfd805e3c8368183ef",
+      "published_sha256": "64382bfe628724557aa0fc5f95daa02473f34cf991a31ee8a737df91de27ff8f"
+    },
+    "enums-1.6.8.md": {
+      "kind": "decoded interface facts",
+      "source_sha256": "8cc4936c8b084e5dca60ef087ec03b28518ca6e88336711c0c3203f8774dac86",
+      "published_sha256": "0f577f506aba55f1042059bac6875c9e0ddd700c8f50a3e497293041c52a367e"
+    },
+    "object-model-1.6.8.md": {
+      "kind": "decoded interface facts",
+      "source_sha256": "c6d8d33ef62c534f1b9ccc3de0e77b370cd139876efe47a4c657af09c369ca41",
+      "published_sha256": "d42bae5b5e13cec516be42b103ab1b1784be8790ea79c55195d60df68024f03c"
+    },
+    "ui-states-1.6.8.md": {
+      "kind": "routing facts; string column omitted",
+      "source_sha256": "f6bd76c2f4600d18aef467a71491b9ad5ebb2378032e5c06d80020d6f0bc50c8"
+    },
+    "pin-map-1.6.1.md": {
+      "kind": "decoded configured-pin facts; trace coverage only",
+      "source_sha256": "205ba04609afb62b62bb98d5d475948c78a4a634408d4b0e0e7d2a06d74838c7"
+    }
+  },
+  "limits": "Source hashes identify records but are not independently reproducible evidence without those records. Publication checks do not rerun the historical full-system emulation."
+}

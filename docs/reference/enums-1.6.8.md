@@ -1,0 +1,98 @@
+# Enumerations (option lists), Bento 1.6.8
+
+Decoded from registry word 2: an array of option-name pointers. These are interface facts, not a copied vendor document.
+
+- **LaunchMode** (`samtrigtype`, id 5): Trigger, Gate, Toggle
+- **LaunchMode** (`samtrigtype`, id 6): Trigger, Gate
+- **Loop Mode** (`loopmodes`, id 8): None, Forward, Bidirect
+- **MIDI In Port** (`midiinport`, id 9): All, TRS 1, TRS 2, USB
+- **MIDI In Chan** (`midiinchan`, id 10): None,  1,  2,  3,  4,  5,  6,  7,  8,  9,  10,  11,  12,  13,  14,  15,  16
+- **CC 1 Port** (`cc1inport`, id 11): All, TRS 1, TRS 2, USB
+- **CC 1 Chan** (`cc1inchan`, id 12): None,  1,  2,  3,  4,  5,  6,  7,  8,  9,  10,  11,  12,  13,  14,  15,  16
+- **CC 2 Port** (`cc2inport`, id 13): All, TRS 1, TRS 2, USB
+- **CC 2 Chan** (`cc2ininchan`, id 14): None,  1,  2,  3,  4,  5,  6,  7,  8,  9,  10,  11,  12,  13,  14,  15,  16
+- **MIDIOutPrt** (`midioutport`, id 15): All, TRS 1, TRS 2, USB
+- **MIDI OutCh** (`midioutchan`, id 16): None,  1,  2,  3,  4,  5,  6,  7,  8,  9,  10,  11,  12,  13,  14,  15,  16
+- **ProjMidiInPrt** (`projmidiinport`, id 19): All, TRS 1, TRS 2, USB
+- **ProjMidiInCh** (`projmidiinchan`, id 20): None,  1,  2,  3,  4,  5,  6,  7,  8,  9,  10,  11,  12,  13,  14,  15,  16
+- **Pad Rec** (`padrec`, id 21): Off, On
+- **Metronome:** (`metroopts`, id 22): Off, Rec, Play
+- **Met Output:** (`metoutbus`, id 23): 1, 2, 3
+- **Pad Mode** (`cellmode`, id 29): Multisample, Clip, Slicer, Granular, New Rec, New Multi
+- **Quant Size** (`quantsize`, id 39): 8 bars, 4 bars, 2 bars, 1 bar, 1/2, 1/4, 1/8, 1/16, None
+- **Sync** (`synctype`, id 40): Slice, 1 bar, 1/2, 1/4, 1/8, 1/16, None
+- **Output** (`outputbus`, id 45): 1, 1 w/ Mod FX, 2, 3
+- **Poly Mode** (`polymode`, id 46): Mono, Poly 2, Poly 4, Poly 6, Poly 8, Poly X
+- **Poly Mode** (`polymodeslice`, id 47): Mono, Poly 2
+- **Slice Seq** (`slicestepmode`, id 48): None, Forward, Backwards, Random, Stagger
+- **Choke Grp** (`chokegrp`, id 49): None, A, B, C, D
+- **Root Note** (`rootnote`, id 52): 128 options, MIDI note names (C#-1 (1) … G9 (127))
+- **Beat Count** (`beatcount`, id 53): 513 options: Auto, 1, 2, 3, 4 … 510, 511, 512
+- **Interp** (`interpqual`, id 59): Normal, HighQ
+- **Quant Size** (`slicerquantsize`, id 61): 2 bars, 1 bar, 1/2, 1/2T, 1/4, 1/4T, 1/8, 1/8T, 1/16, 1/16T, 1/32, 1/32T, 1/64, None
+- **Play Mode** (`gransplaymode`, id 63): Slice, Granular, Slice+Grain
+- **Sync Rate** (`granssyncrate`, id 70): 8 bars, 4 bars, 2 bars, 1 bar, 1/2, 1/2T, 1/4, 1/4T, 1/8, 1/8T, 1/16, 1/16T, 1/32, 1/32T, 1/64
+- **Pad Note** (`padnote`, id 72): 128 options, MIDI note names (C#-1 … G9)
+- **LFO Shape** (`lfowave`, id 74): Rev Saw, Saw, Triangle, Pos Tri, Sine, Pos Sine, Square, Pos Square, Random
+- **LFO Rate** (`lforatebeatsync`, id 79): 8 bars, 4 bars, 2 bars, 1 bar, 1/2, 1/2T, 1/4, 1/4T, 1/8, 1/8T, 1/16, 1/16T, 1/32, 1/32T, 1/64
+- **Length** (`recpresetlen`, id 89): Custom, 1/4, 1/2, 1 bar, 2 bars, 4 bars, 8 bars, 16 bars, 32 bars, 64 bars, 128 bars
+- **Rec Quant** (`recquant`, id 90): 8 bars, 4 bars, 2 bars, 1 bar, 1/2, 1/4, 1/8, 1/16, None
+- **Rec Input** (`recinput`, id 91): In 1, In 2, In 3, USB, In 1L, In 2L, In 3L, USB L, Resample
+- **Mon Output** (`recmonoutbus`, id 94): 1, 1 w/ Mod FX, 2, 3
+- **Step Len** (`notesteplen`, id 96): 8 bars, 4 bars, 2 bars, 1 bar, 1/2, 1/2T, 1/4, 1/4T, 1/8, 1/8T, 1/16, 1/16T, 1/32, 1/32T, 1/64
+- **Step Count** (`notestepcount`, id 98): 257 options: Open, 1, 2, 3, 4 … 254, 255, 256
+- **MIDI Type** (`midiouttype`, id 103): Type A, Type B
+- **Quant Size:** (`quantsizeseq`, id 104): 2 bars, 1 bar, 1/2, 1/2T, 1/4, 1/4T, 1/8, 1/8T, 1/16, 1/16T, 1/32, 1/32T, 1/64
+- **Quant Size:** (`quantsizesong`, id 107): 2 bars, 1 bar, 1/2, 1/2T, 1/4, 1/4T, 1/8, 1/8T, 1/16, 1/16T, 1/32, 1/32T, 1/64
+- **Low Note** (`keyrangebottom`, id 122): 128 options, MIDI note names (C#-1 (1) … G9 (127))
+- **High Note** (`keyrangetop`, id 123): 128 options, MIDI note names (C#-1 (1) … G9 (127))
+- **Pad Bright** (`padbrightness`, id 132): 1, 2, 3, 4, 5, 6
+- **SD Mode:** (`sdsafemode`, id 139): High Speed, Compatible
+- **Scale** (`keymode`, id 141): Chromatic, Major, Major Pent, Minor, Minor Pent, Minor Blues, Raga Bhairav, Raga Todi, Gypsy, Arabian, Egyptian, Miyakobushi, Ryukyu, Wholetone, Diminish, Harmonic Minor, Mel Minor, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, Locrian
+- **Root Note** (`keyroot`, id 142): A, A#, B, C, C#, D, D#, E, F, F#, G, G#
+- **Battery** (`battchargelimit`, id 164): Runtime, Lifespan
+- **Waveform** (`waveform`, id 195): Rev Saw, Triangle, Square, Sine, Noise
+- **Wavetable** (`wavesel`, id 199): 103 built-in wavetable names: AEAHOHOOo, AllSquares, AmpMod1, AmpModSlow, AngularAM, AnimSaws, AnimSaws2, ArpResSwPro, ArpResSwRev, AyEeAyeOh, BPSquare, Batmen, Batmen2, BellXfade, BellXfade2, BellXfade3, BlendedPWM, BoldSines, BoldSinesX, BrightHarm, BrightHarm2, BrNaslSweep, BuzzySyncFL, ClippdGltch, CombThis, CymbalExtr, DeepGong, DirtCymbal, Duality, FastFreqSft, FatSaws, FilterWarp, FizzyAM, FizzyAM2, FlangedSqr, FlangeSaw, FlangeVox, FlangeVxExt, FMSineX2, FoldedWaves, FreqShiftd, FreqShiftr, FreqShift2, FurryPrms, HarshAM, HmxPairs, LivelySaw, LowerHxOct, LowerPrHmx, MelSyncSwp, MetEvolutn, MetallicVx, Metallix, MetalOink, MirrorSine, NiceFM, OctFatSaw, OctFatSaw2, OctFatSaw3, OctHxSweep, OddHxSweep, OohDust, OwwSync, PhasedSaw, PhasedSqr, PhasedSync, Quacky, Rectified, ResTriangs, Rippin, Sawsync1, Sawsync2, Sawsync3, Sawsync4, Sawsync5, SeeSaw, Sine, SineMorph, SineMorph2, SineMorph3, SineWarp, SineWidMod, SubtleFM1, SyncBP, TerBubbly, TerGritty, TubeNoizGen, UselessBuzz, UselessFM, VactrolLP, VocSwpPrc, VocSwpPrc2, VoxAye, VoxAyyyy, VoxEeee, VoxNervAay, VoxOh, VoxOooh, WarpWavSync, WideSpacHmx, Wraparound, Yaiyai, Yaiyai2
+- **Poly Mode** (`wtblpolymode`, id 203): Unison 1, Unison 2, Unison 3, Unison 4, Unison 5, Unison 6, Unison 7, Unison 8, Poly 2, Poly 3, Poly 4, Poly 5, Poly 6, Poly 7, Poly 8
+- **Type** (`filtertype`, id 208): Low Pass, High Pass, Band Pass, Notch
+- **Mode** (`filtparallel`, id 210): Serial, Parallel, Per Osc
+- **Mode** (`filtwvtblparallel`, id 211): Serial, Parallel
+- **Step Len** (`steplen`, id 212): 2 bars, 1 bar, 1/2, 1/2T, 1/4, 1/4T, 1/8, 1/8T, 1/16, 1/16T, 1/32, 1/32T, 1/64
+- **Input** (`graninput`, id 228): In 1, In 2, In 3, USB, In 1L, In 2L, In 3L, USB L
+- **Delay** (`delaymustime`, id 234): 1/64, 1/32, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/2, 1 bar
+- **Rpt Len** (`rptlen`, id 245): 1/4, 1/8, 1/16, 1/32
+- **Gate Len** (`gatelen`, id 246): 1/4, 1/8, 1/16, 1/32
+- **Delay** (`echodly`, id 248): 1/2, 1/2T, 1/4, 1/4T, 1/8, 1/8T, 1/16, 1/16T, 1/32, 1/32T, 1/64
+- **Delay** (`echo2dly`, id 251): 1/2, 1/4, 1/8, 1/16, 1/32, 1/64
+- **LiveA FX** (`fxliveatype`, id 252): Repeater, Gater, Filter
+- **LiveB FX** (`fxlivebtype`, id 253): Bitcrusher, Filter, Echo, Echo HPF, Flanger, Echo 2
+- **Type** (`fx3type`, id 259): Flanger+Dist, Chorus, Phaser
+- **Type:** (`eqtype`, id 268): None, L Cut, L Shelf, Param, H Shelf, H Cut
+- **Type:** (`eqtype2`, id 273): None, L Cut, L Shelf, Param, H Shelf, H Cut
+- **Type:** (`eqtype3`, id 278): None, L Cut, L Shelf, Param, H Shelf, H Cut
+- **Type:** (`eqtype4`, id 283): None, L Cut, L Shelf, Param, H Shelf, H Cut
+- **Input** (`trkinput`, id 321): In 1, In 2, In 3, USB, In 1L, In 2L, In 3L, USB L
+- **Rate** (`grainbeatrate`, id 326): 8 bars, 4 bars, 2 bars, 1 bar, 1/2, 1/2T, 1/4, 1/4T, 1/8, 1/8T, 1/16, 1/16T, 1/32, 1/32T, 1/64
+- **Pattern** (`grainpitchpatt`, id 327): None, Octaves, Fifths
+- **Play Mode** (`grainfreezemode`, id 329): Moving, Fixed
+- **Gr Shape** (`grainshape`, id 335): Smooth, Ramp Down, Ramp Up
+- **Poly Mode** (`granpolymode`, id 337): Mono, Poly 2, Poly 3, Poly 4, Poly X
+- **Dist Type** (`cabdisttype`, id 345): Artificial, Solid State, Tube
+- **Prob** (`evtcond`, id 386): 100 options: 1%%, 2%%, 3%%, 4%%, 5%% … 98%%, 99%%, Always
+- **Note** (`None`, id 387): C#-1 (1), D-1 (2), D#-1 (3), E-1 (4), F-1 (5), F#-1 (6), G-1 (7), G#-1 (8), A-1 (9), A#-1 (10), B-1 (11), C0 (12), C#0 (13), D0 (14), D#0 (15), E0 (16), F0 (17), F#0 (18), G0 (19), G#0 (20), A0 (21), A#0 (22), B0 (23), C1 (24), C#1 (25), D1 (26), D#1 (27), E1 (28), F1 (29), F#1 (30), G1 (31), G#1 (32), A1 (33), A#1 (34), B1 (35), C2 (36), C#2 (37), D2 (38), D#2 (39), E2 (40), F2 (41), F#2 (42), G2 (43), G#2 (44), A2 (45), A#2 (46), B2 (47), C3 (48), C#3 (49), D3 (50), D#3 (51), E3 (52), F3 (53), F#3 (54), G3 (55), G#3 (56), A3 (57), A#3 (58), B3 (59), C4 (60), C#4 (61), D4 (62), D#4 (63), E4 (64), F4 (65), F#4 (66), G4 (67), G#4 (68), A4 (69), A#4 (70), B4 (71), C5 (72), C#5 (73), D5 (74), D#5 (75), E5 (76), F5 (77), F#5 (78), G5 (79), G#5 (80), A5 (81), A#5 (82), B5 (83), C6 (84), C#6 (85), D6 (86), D#6 (87), E6 (88), F6 (89), F#6 (90), G6 (91), G#6 (92), A6 (93), A#6 (94), B6 (95), C7 (96), C#7 (97), D7 (98), D#7 (99), E7 (100), F7 (101), F#7 (102), G7 (103), G#7 (104), A7 (105), A#7 (106), B7 (107), C8 (108), C#8 (109), D8 (110), D#8 (111), E8 (112), F8 (113), F#8 (114), G8 (115), G#8 (116), A8 (117), A#8 (118), B8 (119), C9 (120), C#9 (121), D9 (122), D#9 (123), E9 (124), F9 (125), F#9 (126), G9 (127)
+- **Type** (`patchPickType`, id 389): All, Granular, Loop, Multisample, One-Shot, Shredder, Slicer, Wavetable
+- **Style:** (`r2style`, id 417): Tight Amb, Bright Room, Large Room, Wide Slap, Notchy Amb, Reso Room, Marble Hall, Chamber, Dark Hall, Small Hall, Gated, Arena, Long Bright, Gravitas, Clouds
+- **Reverb** (`rvbalgo`, id 438): Room, Shimmer
+- **Rec Mon** (`recmonmode`, id 443): Off, Auto
+- **Start Note:** (`mrstartnote`, id 457): 128 options, MIDI note names (C#-1 (1) … G9 (127))
+- **End Note:** (`mrendnote`, id 458): 128 options, MIDI note names (C#-1 (1) … G9 (127))
+- **Lane** (`None`, id 475): Auto A, Auto B, Auto C, Auto D
+- **Automation** (`None`, id 478): Hide, Show
+- **Trigger** (`ducktrig`, id 488): Track, Pad, Clock, Audio, MIDI
+- **Division** (`duckclkdiv`, id 489): 1/16, 1/8, 1/4, 1/2, 1/1
+- **Source** (`ducktrkin`, id 490): Track 1, Track 2, Track 3, Track 4, Track 5, Track 6, Track 7, Track 8
+- **Note** (`duckmidinote`, id 492): 128 options, MIDI note names (C#-1 (1) … G9 (127))
+- **Channel** (`duckmidich`, id 493): Omni, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+- **Source** (`duckextin`, id 494): In 1, In 2, In 3, USB
+- **Source Track** (`duckpadtrk`, id 496): Track 1, Track 2, Track 3, Track 4, Track 5, Track 6, Track 7, Track 8
+- **Source Pad** (`duckpad`, id 497): Pad 1, Pad 2, Pad 3, Pad 4, Pad 5, Pad 6, Pad 7, Pad 8, Pad 9, Pad 10, Pad 11, Pad 12, Pad 13, Pad 14, Pad 15, Pad 16

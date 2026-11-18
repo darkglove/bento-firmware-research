@@ -1,9 +1,9 @@
-# Working with this repository
+# Working with this public repository
 
-Read README.md, docs/TUTORIAL.md, docs/SAFETY.md and docs/RESEARCH.md first. This is a binary-patch research toolkit, not vendor firmware source.
+Read README.md, PUBLICATION.md, docs/research/EVIDENCE.md and docs/SAFETY.md first. For the old patch workflow also read docs/TUTORIAL.md. Current research targets 1.6.8; the existing minimal patch builder remains locked to 1.6.1.
 
-Preserve user-supplied inputs. Never weaken hash gates to make an unsupported image pass. Build only into a new directory, then run the independent verifier. No automatic flash. Attribute the device owner's reported successful one-byte load and visible lowercase `s`; do not generalize it to recovery or other patches. Do not commit vendor inputs, generated images, proprietary decompilations, credentials or personal paths. Keep observed evidence separate from inference and owner reports.
+Preserve local user inputs and exact hash gates. No automatic flash, device changes or weakening of checks. Do not claim emulation proves safe installation. Attribute hardware observations anonymously and distinguish them from static, modeled and emulated evidence.
 
-Run `python -m unittest discover -s tests -v` for firmware-free checks. With user-supplied supported firmware, run the tutorial's build and verification commands. Report skipped checks and tool failures honestly.
+Never commit personal data, machine paths, private project notes/history, credentials, vendor inputs, original 1010music files, generated images/audio, proprietary decompilation or binary dumps. Use explicit reviewed file lists and anonymous author/committer metadata. Do not bulk-copy another repository. Follow PUBLICATION.md for history findings.
 
-Prominently state that the modified firmware is experimental. One owner reports a successful load and visible lowercase `s`, but this does not prove reliability or safety from damage/bricking. Offline test success must never be described as a safe device update.
+Run `python -m unittest discover -s tests -v` and the staged publication audit before publishing. Verify documentation links and remote equality. Do not claim the complete native harness is available here or historical full-system tests were rerun when they were not.

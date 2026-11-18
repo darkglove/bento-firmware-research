@@ -1,19 +1,26 @@
-# Validation record
+# Validation for the November 2026 public edition
 
-> [!WARNING]
-> **EXPERIMENTAL TESTING — ONE OWNER-REPORTED SUCCESS, NOT PROVEN SAFE.**
-> The device owner reports that this one-byte test firmware loaded without issue and displayed the lowercase `s` in `Global settings` after the usual firmware-update procedure. This was not independently witnessed; no installation logs or long-term results were supplied.
-> This does **not** establish safety, reliability, rollback/recovery, broader device compatibility or support for other patches. Firmware experiments could leave a Bento unusable; recovery is not guaranteed. Do not install on hardware you cannot afford to render unusable.
-> Offline tests and matching hashes are not hardware-safety certification. An AI assistant cannot certify this firmware safe.
+Publication date: 18 November 2026. These checks validate the public documentation/tools and privacy boundary; they do not rerun the historical full-system emulator or establish device safety.
 
-Validated on a Windows host using the exact supported archive. No firmware is distributed.
+## Checks run for this edition
 
-- Firmware-free unittest suite: four tests passed.
-- Public builder: completed with exact archive/component hash gates and built-in altered-input/double-application checks.
-- Independent verifier: passed exact one-byte diff, expected output hash, unchanged companion, original rollback and manifest checks.
-- Negative integration checks: independently altered candidate bytes and manifest text were both rejected.
-- Optional Ghidra helper workflow has prior local analysis evidence; public commands/platform combinations are not exhaustively tested.
-- Hardware: On 2026-10-12T06:56:25+00:00, the device owner reported that the one-byte test firmware loaded without issue, that the lowercase `s` in `Global settings` was visible, and that installation followed the usual firmware-update procedure. This is **owner-reported hardware evidence**, not an independently witnessed test. The report does not document installation logs, prolonged operation, audio/MIDI behavior, repeatability on other units, stock rollback, or interrupted-update recovery. Modified firmware remains experimental and is not proven safe from damage or bricking.
-- No independent hardware observation, audio behavior or recovery validation is claimed.
+- Firmware-free Python tests: **17 passed**, including the original four guards, read-only inspection behavior and publication-rule rejection tests.
+- Read-only inspector accepted the exact local **1.6.1 and 1.6.8** stock pairs and reported their expected component hashes and executable-region vectors.
+- Comparing 1.6.8 stock with itself reported no differences.
+- Comparing the existing local 1.6.8 T3 candidate reported **3 changed existing bytes, 76 appended bytes**, CM4-only affected ranges and exclusive end `0x081b6e80`. This is byte comparison, not loader or hardware acceptance. The candidate file is not published.
+- Local documentation links, JSON structure and staged whitespace/content are checked before publication.
+- Publication review uses an explicit file list, text/type checks, a private denylist and a reachable-history audit. Anonymous commit metadata is checked separately. No original vendor files, firmware binaries or private project history are included in the publication set.
 
-Run the tutorial yourself; this record does not establish results on your computer or device. Test inputs/outputs remain local and ignored by Git.
+See [PUBLICATION.md](../PUBLICATION.md) for audit limits and handling of historical personal information. The optional private denylist is not distributed.
+
+## Earlier 1.6.1 tutorial evidence
+
+The earlier release recorded a successful public builder run, independent one-byte/companion/rollback verification, and rejection of altered candidate bytes and manifest text. Its four firmware-free guards were rerun for this edition. A new firmware build was not required for this documentation/inspection-tool update.
+
+The one-byte load is an anonymized owner report, not an independently witnessed test. Optional Ghidra commands and all supported operating systems were not exhaustively retested.
+
+## Historical research results
+
+The native startup/audio/storage/graphics/controller results in the [research guide](research/README.md) are carried forward from recorded experiments with explicit supplied environments. Raw traces and the complete harness are not included. Do not describe this publication's unit tests as reproducing those historical integration results.
+
+The final controller-driven output-amplitude experiment remains unverified. The 1.6.8 hardware-test batch has offline results but no recorded device acceptance in this edition.
